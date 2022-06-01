@@ -1,0 +1,117 @@
+/** Globales **/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+    /* 1 rem = 10px */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.contenedor {
+    width: min(100%, 120rem);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.2;
+}
+/* Header */
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( #ffff, #9198e5);
+}
+
+.header img{
+    width: 10rem;
+}
+
+/* Cuadro Principal */
+
+.art{
+    /* display: table;  / Da flexibilidad a la tabla */
+    border-spacing: .1rem;
+    background-color: black;
+    border: .5rem solid black ;
+    margin: 5rem 0;
+}
+
+.row{
+    display: table-row;
+}
+
+.pixel{
+    display: table-cell;
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+}
+
+/* footer */
+.footer{
+    background: linear-gradient( #9198e5, #ffff);
+    height: 10rem;
+}
+
+.enlaces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+@-webkit-keyframes animar{
+    0%{-webkit-transform:translate(0px,0px);}
+    10%{-webkit-transform:translate(0px,10px);}
+    20%{-webkit-transform:translate(0px,0px);}
+    30%{-webkit-transform:translate(0px,10px);}
+    40%{-webkit-transform:translate(0px,0px);}
+    50%{-webkit-transform:translate(0px,10px);}
+    60%{-webkit-transform:translate(0px,0px);}
+    70%{-webkit-transform:translate(0px,10px);}
+    80%{-webkit-transform:translate(0px,0px);}
+    90%{-webkit-transform:translate(0px,10px);}
+    100%{-webkit-transform:translate(0px,0px);}
+}
+
+.logo{
+    background-color: black;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo:hover{
+    -webkit-animation:animar .8s 1;
+}
+
+.enlaces__nombres{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+

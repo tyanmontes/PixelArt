@@ -1,224 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="style/normalize.css" as="style">
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="preload" href="style/style.css" as="style">
-    <link rel="stylesheet" href="style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Open+Sans:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" href="style/normalize.css" as="style" />
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="preload" href="style/style.css" as="style" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>PixelArt</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <a href="index.html">
-            <img class="header__logo" src="img/Logo.png" alt="Logotipo">
-        </a>
+      <a href="index.html">
+        <img class="header__logo" src="img/Logo.png" alt="Logotipo" />
+      </a>
     </header>
     <div class="contenedor">
-        <aside class="herramientas">
-            <div class="heramientas__pen" style="background-color: #ffff"></div>
-            <div class="heramientas__pen" style="background-color: #000"></div>
-            <div class="heramientas__pen" style="background-color: #FFFF00"></div>
-            <div class="heramientas__pen" style="background-color: #0000ff"></div>
-            <div class="heramientas__pen" style="background-color: #FF0000"></div>
-            <div class="heramientas__pen" style="background-color: #008000"></div>
-            <div class="heramientas__pen" style="background-color: #800080"></div>
-            <div class="heramientas__pen" style="background-color: #FFA500"></div>
-            <input type="color" value="#ff0000" class="herramientas__input">
-        </aside>
+      <div class="contendor__der">
         <main class="art">
-            <div class="row">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="row">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="row">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="row">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="row">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="row">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="row">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="row">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="row">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="row">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="row">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
-            <div class="row">
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-                <div class="pixel"></div>
-            </div>
+          <div class="row">
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+          </div>
+          <div class="row">
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+          </div>
+          <div class="row">
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+          </div>
+          <div class="row">
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+          </div>
+          <div class="row">
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+          </div>
+          <div class="row">
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+          </div>
+          <div class="row">
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+          </div>
+          <div class="row">
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+          </div>
+          <div class="row">
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+          </div>
+          <div class="row">
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+          </div>
+          <div class="row">
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+          </div>
+          <div class="row">
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+            <div class="pixel pixel--movil"></div>
+          </div>
         </main>
+      </div>
+      <div class="contendor__izq">
+        <aside class="herramientas">
+          <div class="herramientas__pen" style="background-color: #ffff"></div>
+          <div class="herramientas__pen" style="background-color: #000"></div>
+          <div
+            class="herramientas__pen"
+            style="background-color: #ffff00"
+          ></div>
+          <div
+            class="herramientas__pen"
+            style="background-color: #0000ff"
+          ></div>
+          <div
+            class="herramientas__pen"
+            style="background-color: #ff0000"
+          ></div>
+          <div
+            class="herramientas__pen"
+            style="background-color: #008000"
+          ></div>
+          <div
+            class="herramientas__pen"
+            style="background-color: #800080"
+          ></div>
+          <div
+            class="herramientas__pen"
+            style="background-color: #ffa500"
+          ></div>
+          <input type="color" value="#ff0000" class="herramientas__input" />
+        </aside>
+      </div>
     </div>
     <script src="js/script.js"></script>
     <footer class="footer">
-        <div class="enlaces">
-            <h1 class="enlaces__info">Siguenos en TikTok</h1>
-
-            <div class="logo">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="40"
-                    height="40" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ffffff" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
-                </svg>
-            </div>
-
-            <a class="enlaces__nombres" href="https://www.tiktok.com/@stven_artec">Stven</a>
-            <a class="enlaces__nombres" href="https://tiktok.com/@sebas_montes">Sebas</a>
+      <div class="enlaces">
+        <div class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-tiktok"
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            stroke-width="2.5"
+            stroke="#ffffff"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
+          </svg>
         </div>
-    </footer>
-</body>
 
+        <a class="enlaces__nombres" href="https://www.tiktok.com/@stven_artec"
+          >Stven</a
+        >
+        <a class="enlaces__nombres" href="https://tiktok.com/@sebas_montes"
+          >Sebas</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>

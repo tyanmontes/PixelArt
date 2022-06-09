@@ -277,7 +277,6 @@ h4 {
 /* Tablet version */
 
 @media (min-width: 768px) {
-
   .pixel--movil {
     display: table-cell;
   }
@@ -289,7 +288,7 @@ h4 {
 
   .herramientas {
     display: flex;
-    }
+  }
 
   .contenedor {
     margin: 4rem 0;
@@ -299,7 +298,6 @@ h4 {
 /* Desktop version */
 
 @media (min-width: 1280px) {
-
   .contenedor {
     margin: 0;
   }
@@ -314,5 +312,4 @@ h4 {
     justify-content: center;
     gap: 2rem;
   }
-
 }

@@ -8,6 +8,7 @@ const descargar = document.querySelector("#btn-descargar");
 //#region pintar
 const seleccionarColor = (color) => (penColor = color);
 const aplicarColor = (pixel) => (pixel.style.backgroundColor = penColor);
+const pikerselect = (color) => (penColor = color);
 piker.addEventListener("input", () => (penColor = piker.value));
 //#endregion
 

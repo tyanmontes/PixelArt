@@ -152,11 +152,6 @@ h4 {
   justify-self: center;
 }
 
-.herramientas__btn-borrar:hover {
-  background: linear-gradient(to bottom, #c9629a 5%, #e079d3 100%);
-  background-color: #c03e95;
-}
-
 .herramientas__btn-borrar:active {
   background: linear-gradient(to bottom, #c9629a 5%, #e079d3 100%);
   background-color: #c03e95;
@@ -176,17 +171,16 @@ h4 {
   background-color: #cf2a77;
 }
 
-.herramientas__btn-descargar:hover {
-  background: linear-gradient(to bottom, #c9629a 5%, #e079d3 100%);
-  background-color: #c03e95;
-}
-
 .herramientas__btn-descargar:active {
   background: linear-gradient(to bottom, #c9629a 5%, #e079d3 100%);
   background-color: #c03e95;
 }
 
 /* footer */
+.logo:active {
+  -webkit-animation: animar 0.8s 1;
+}
+
 .footer {
   background: linear-gradient(#9198e5, #ffff);
   height: 10rem;
@@ -255,10 +249,6 @@ h4 {
   height: 4rem;
 }
 
-.logo:hover {
-  -webkit-animation: animar 0.8s 1;
-}
-
 .enlaces__nombres {
   font-size: 2rem;
   font-weight: bold;
@@ -269,7 +259,7 @@ h4 {
   background-color: green;
 }
 
-.enlaces__nombres:hover {
+.enlaces__nombres:active {
   font-size: 2.5rem;
   background-color: rgb(57, 185, 57);
 }
@@ -307,9 +297,28 @@ h4 {
     height: 4rem;
   }
 
+  .logo:hover {
+    -webkit-animation: animar 0.8s 1;
+  }
+
   .enlaces {
     display: flex;
     justify-content: center;
     gap: 2rem;
+  }
+
+  .herramientas__btn-borrar:hover {
+    background: linear-gradient(to bottom, #c9629a 5%, #e079d3 100%);
+    background-color: #c03e95;
+  }
+
+  .herramientas__btn-descargar:hover {
+    background: linear-gradient(to bottom, #c9629a 5%, #e079d3 100%);
+    background-color: #c03e95;
+  }
+
+  .enlaces__nombres:hover {
+    font-size: 2.5rem;
+    background-color: rgb(57, 185, 57);
   }
 }
